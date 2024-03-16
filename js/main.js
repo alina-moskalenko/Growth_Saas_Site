@@ -33,3 +33,22 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+// Mobile Menu Hamburger Button
+// let hamburgerMenu = document.getElementsByClassName("mobile-menu");
+// hamburgerMenu.addEventListener("click", setActiveHamMenu());
+
+// function setActiveHamMenu() {
+//   let activeClass = document.getElementsByClassName("active");
+//   activeClass.className.toggle("active");
+// }
+document.addEventListener("DOMContentLoaded", () => {
+  const hamburgerBtn = document.querySelector('.hamburger-') 
+    // if (hamMenu.classList === "null") {
+    //   hamMenu.classList.add("active");
+    //   console.log("active");
+    // } else {
+    //   console.log("not active");
+    // }
+  });
+});
