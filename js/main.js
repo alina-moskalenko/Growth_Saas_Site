@@ -43,12 +43,9 @@ document.addEventListener("DOMContentLoaded", () => {
 //   activeClass.className.toggle("active");
 // }
 document.addEventListener("DOMContentLoaded", () => {
-  const hamburgerBtn = document.querySelector('.hamburger-') 
-    // if (hamMenu.classList === "null") {
-    //   hamMenu.classList.add("active");
-    //   console.log("active");
-    // } else {
-    //   console.log("not active");
-    // }
-  });
+  const hamburgerBtn = document.querySelector(".hamburger-button");
+  const mobileMenu = document.querySelector(".mobile-menu");
+  hamburgerBtn.addEventListener("click", () =>
+    mobileMenu.classList.toggle("active")
+  );
 });
